@@ -11,6 +11,13 @@ Tags: light, photography, halsman
 Text Domain: twentyeleven
 */
 
+@import url("//hello.myfonts.net/count/2f1eaf");
+@font-face {font-family: 'EngraversGothicBT-Regular';src: url('webfonts/2F1EAF_0_0.eot');src: url('webfonts/2F1EAF_0_0.eot?#iefix') format('embedded-opentype'),url('webfonts/2F1EAF_0_0.woff2') format('woff2'),url('webfonts/2F1EAF_0_0.woff') format('woff'),url('webfonts/2F1EAF_0_0.ttf') format('truetype');}
+
+header nav ul li a {
+	font-family: 'EngraversGothicBT-Regular';
+}
+
 .category-news .content a{display:inline;}@charset "UTF-8";
 body,
 h1,
@@ -108,119 +115,25 @@ header nav ul li {
   float: left;
 }
 header nav ul li a {
-  background-image: url(images/nav-sprite.png);
-  margin: 0 10px 0 10px;
+  margin: 0 8px;
+	min-width:51px;
   height: 51px;
-  text-indent: -9999px;
-  overflow: hidden;
-  background-repreat: no-repeat;
-  text-align: left;
+  line-height: 51px;
+	text-transform:uppercase;
+	color:black;
+  text-align: center;
   display: block;
+	background:transparent none center center no-repeat;
+	background-size:auto 100%;
+}
+header nav ul li a:hover {
+	background-image:url(images/yellow-circle.svg);
+}
+body.page-id-9 header nav ul li a:hover {
+	background-image:url(images/white-circle.svg);
 }
 header nav ul li ul.sub-menu {
   display: none;
-}
-header nav ul li.menu-item-27 a {
-  width: 50px;
-  background-position: 0 top;
-  margin: 0 5px 0 0;
-}
-header nav ul li.menu-item-27 a:hover {
-  background-position: 0 bottom;
-}
-header nav ul li.menu-item-32 a {
-  width: 50px;
-  background-position: -67px top;
-}
-header nav ul li.menu-item-32 a:hover {
-  background-position: -67px bottom;
-}
-header nav ul li.menu-item-772 a {
-  width: 63px;
-  background-position: -139px top;
-}
-header nav ul li.menu-item-772 a:hover {
-  background-position: -139px bottom;
-}
-header nav ul li.menu-item-773 a {
-  width: 53px;
-  background-position: -223px top;
-}
-header nav ul li.menu-item-773 a:hover {
-  background-position: -223px bottom;
-}
-header nav ul li.menu-item-29 a {
-  width: 121px;
-  background-position: -297px top;
-}
-header nav ul li.menu-item-29 a:hover {
-  background-position: -297px bottom;
-}
-header nav ul li.menu-item-800 a {
-  width: 94px;
-  background-position: -439px top;
-}
-header nav ul li.menu-item-800 a:hover {
-  background-position: -439px bottom;
-}
-header nav ul li.menu-item-33 a {
-  width: 68px;
-  background-position: -557px top;
-}
-header nav ul li.menu-item-33 a:hover {
-  background-position: -557px bottom;
-}
-header nav ul li.menu-item-35 a {
-  width: 85px;
-  background-position: -648px top;
-  margin: 0 7px 0 9px;
-}
-header nav ul li.menu-item-35 a:hover {
-  background-position: -648px bottom;
-}
-header nav ul li.menu-item-814 a {
-  width: 50px;
-  background-position: -748px top;
-  margin: 0 0 0 6px;
-}
-header nav ul li.menu-item-814 a:hover {
-  background-position: -748px bottom;
-}
-header nav ul li.menu-item-27.current-menu-item a,
-header nav ul li.menu-item-27.current-menu-parent a {
-  background-position: 0 bottom;
-}
-header nav ul li.menu-item-32.current-menu-item a,
-header nav ul li.menu-item-32.current-menu-parent a {
-  background-position: -67px bottom;
-}
-header nav ul li.menu-item-772.current-menu-item a,
-header nav ul li.menu-item-772.current-menu-parent a {
-  background-position: -139px bottom;
-}
-header nav ul li.menu-item-773.current-menu-item a,
-header nav ul li.menu-item-773.current-menu-parent a {
-  background-position: -223px bottom;
-}
-header nav ul li.menu-item-29.current-menu-item a,
-header nav ul li.menu-item-29.current-menu-parent a {
-  background-position: -297px bottom;
-}
-header nav ul li.menu-item-800.current-menu-item a,
-header nav ul li.menu-item-800.current-menu-parent a {
-  background-position: -439px bottom;
-}
-header nav ul li.menu-item-33.current-menu-item a,
-header nav ul li.menu-item-33.current-menu-parent a {
-  background-position: -557px bottom;
-}
-header nav ul li.menu-item-35.current-menu-item a,
-header nav ul li.menu-item-35.current-menu-parent a {
-  background-position: -648px bottom;
-}
-header nav ul li.menu-item-814.current-menu-item a,
-header nav ul li.menu-item-814.current-menu-parent a {
-  background-position: -748px bottom;
 }
 footer {
   width: 100%;
@@ -442,34 +355,6 @@ body.page-id-9 {
 body.page-id-9 header {
   padding: 50px 0 40px 0;
   background-position: 0 50px;
-}
-body.page-id-9 header nav ul li.menu-item-27 a:hover,
-body.page-id-9 header nav ul li.menu-item-27.current-menu-item a {
-  background-position: 0 -56px;
-}
-body.page-id-9 header nav ul li.menu-item-32 a:hover {
-  background-position: -67px -56px;
-}
-body.page-id-9 header nav ul li.menu-item-772 a:hover {
-  background-position: -139px -56px;
-}
-body.page-id-9 header nav ul li.menu-item-773 a:hover {
-  background-position: -223px -56px;
-}
-body.page-id-9 header nav ul li.menu-item-29 a:hover {
-  background-position: -297px -56px;
-}
-body.page-id-9 header nav ul li.menu-item-800 a:hover {
-  background-position: -439px -56px;
-}
-body.page-id-9 header nav ul li.menu-item-33 a:hover {
-  background-position: -557px -56px;
-}
-body.page-id-9 header nav ul li.menu-item-35 a:hover {
-  background-position: -648px -56px;
-}
-body.page-id-9 header nav ul li.menu-item-814 a:hover {
-  background-position: -748px -56px;
 }
 body.page-id-9 .content {
   width: 100%;
