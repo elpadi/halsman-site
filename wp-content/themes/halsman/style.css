@@ -11,4 +11,566 @@ Tags: light, photography, halsman
 Text Domain: twentyeleven
 */
 
-.category-news .content a{display:inline;}
+.category-news .content a{display:inline;}@charset "UTF-8";
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+form,
+fieldset,
+legend,
+p,
+ul,
+ol,
+li,
+fieldset,
+blockquote,
+caption,
+table,
+tr,
+dl,
+dt,
+dd,
+img,
+header,
+nav,
+footer {
+  margin: 0;
+  padding: 0;
+}
+html,
+body {
+  width: 100%;
+}
+html {
+  -webkit-text-size-adjust: none;
+}
+article,
+aside,
+footer,
+header,
+hgroup,
+nav,
+section {
+  display: block;
+}
+a {
+  text-decoration: none;
+}
+img {
+  border: 0;
+}
+.grp:after {
+  content: ".";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+}
+.ir {
+  text-indent: -9999px;
+  overflow: hidden;
+  background-repreat: no-repeat;
+  text-align: left;
+  display: block;
+}
+body {
+  border-top: 14px solid #000;
+  font-family: Helvetica, Arial, sans-serif;
+  background: #ffffff;
+}
+#wrapper {
+  width: 850px;
+  margin: 0 auto 40px;
+}
+header {
+  width: 100%;
+  background-image: url(images/logo.png);
+  background-position: 0 36px;
+  background-repeat: no-repeat;
+  padding: 36px 0 40px 0;
+  height: 150px;
+}
+header .logo {
+  width: 294px;
+  height: 104px;
+}
+header nav {
+  padding: 0 0 0 55px;
+}
+header nav ul {
+  list-style: none;
+}
+header nav ul li {
+  float: left;
+}
+header nav ul li a {
+  background-image: url(images/nav-sprite.png);
+  margin: 0 10px 0 10px;
+  height: 51px;
+  text-indent: -9999px;
+  overflow: hidden;
+  background-repreat: no-repeat;
+  text-align: left;
+  display: block;
+}
+header nav ul li ul.sub-menu {
+  display: none;
+}
+header nav ul li.menu-item-27 a {
+  width: 50px;
+  background-position: 0 top;
+  margin: 0 5px 0 0;
+}
+header nav ul li.menu-item-27 a:hover {
+  background-position: 0 bottom;
+}
+header nav ul li.menu-item-32 a {
+  width: 50px;
+  background-position: -67px top;
+}
+header nav ul li.menu-item-32 a:hover {
+  background-position: -67px bottom;
+}
+header nav ul li.menu-item-772 a {
+  width: 63px;
+  background-position: -139px top;
+}
+header nav ul li.menu-item-772 a:hover {
+  background-position: -139px bottom;
+}
+header nav ul li.menu-item-773 a {
+  width: 53px;
+  background-position: -223px top;
+}
+header nav ul li.menu-item-773 a:hover {
+  background-position: -223px bottom;
+}
+header nav ul li.menu-item-29 a {
+  width: 121px;
+  background-position: -297px top;
+}
+header nav ul li.menu-item-29 a:hover {
+  background-position: -297px bottom;
+}
+header nav ul li.menu-item-800 a {
+  width: 94px;
+  background-position: -439px top;
+}
+header nav ul li.menu-item-800 a:hover {
+  background-position: -439px bottom;
+}
+header nav ul li.menu-item-33 a {
+  width: 68px;
+  background-position: -557px top;
+}
+header nav ul li.menu-item-33 a:hover {
+  background-position: -557px bottom;
+}
+header nav ul li.menu-item-35 a {
+  width: 85px;
+  background-position: -648px top;
+  margin: 0 7px 0 9px;
+}
+header nav ul li.menu-item-35 a:hover {
+  background-position: -648px bottom;
+}
+header nav ul li.menu-item-814 a {
+  width: 50px;
+  background-position: -748px top;
+  margin: 0 0 0 6px;
+}
+header nav ul li.menu-item-814 a:hover {
+  background-position: -748px bottom;
+}
+header nav ul li.menu-item-27.current-menu-item a,
+header nav ul li.menu-item-27.current-menu-parent a {
+  background-position: 0 bottom;
+}
+header nav ul li.menu-item-32.current-menu-item a,
+header nav ul li.menu-item-32.current-menu-parent a {
+  background-position: -67px bottom;
+}
+header nav ul li.menu-item-772.current-menu-item a,
+header nav ul li.menu-item-772.current-menu-parent a {
+  background-position: -139px bottom;
+}
+header nav ul li.menu-item-773.current-menu-item a,
+header nav ul li.menu-item-773.current-menu-parent a {
+  background-position: -223px bottom;
+}
+header nav ul li.menu-item-29.current-menu-item a,
+header nav ul li.menu-item-29.current-menu-parent a {
+  background-position: -297px bottom;
+}
+header nav ul li.menu-item-800.current-menu-item a,
+header nav ul li.menu-item-800.current-menu-parent a {
+  background-position: -439px bottom;
+}
+header nav ul li.menu-item-33.current-menu-item a,
+header nav ul li.menu-item-33.current-menu-parent a {
+  background-position: -557px bottom;
+}
+header nav ul li.menu-item-35.current-menu-item a,
+header nav ul li.menu-item-35.current-menu-parent a {
+  background-position: -648px bottom;
+}
+header nav ul li.menu-item-814.current-menu-item a,
+header nav ul li.menu-item-814.current-menu-parent a {
+  background-position: -748px bottom;
+}
+footer {
+  width: 100%;
+}
+.home .content p.copy {
+  float: none;
+  margin-left: 186px;
+  color: #000;
+}
+.page-id-9 .content p.copy {
+  color: #000;
+}
+.content {
+  width: 65.647059%;
+  float: right;
+  font-size: 14px;
+  line-height: 20px;
+}
+.content h1 {
+  font-weight: bold;
+  font-size: 14px;
+  margin-bottom: 30px;
+  margin-top: 30px;
+  display: block;
+}
+.content h2 {
+  font-weight: bold;
+  font-size: 14px;
+  margin-bottom: 15px;
+  padding-top: 30px;
+  display: block;
+}
+.content p {
+  margin-bottom: 15px;
+  display: block;
+}
+.content p.copy {
+  margin: 0 0 0 0;
+  padding-top: 40px;
+  color: #636466;
+  font-size: 11px;
+  font-family: Arial, Helvetica, sans-serif;
+  float: right;
+  width: 100%;
+}
+.content a {
+  color: #58595b;
+  text-decoration: underline;
+  display: block;
+}
+.content a.top {
+  color: #a7a9ac;
+  background: url(images/arrow-up.jpg) 80px 30px no-repeat;
+  text-decoration: none;
+  padding: 30px 20px 0 0;
+}
+.content .gallery {
+  margin: auto;
+}
+.content .gallery .gallery-item {
+  float: left;
+  margin-bottom: 30px;
+  text-align: center;
+  width: 33%;
+}
+.content .gallery .gallery-caption {
+  color: #848689;
+  margin-left: 0;
+}
+.content .gallery img {
+  border: none;
+}
+.content .added-info {
+  margin-left: 35px;
+}
+.content .added-info p,
+.content .added-info a {
+  display: inline-block;
+}
+.page-id-167 .content h1.title,
+.page-id-149 .content h1.title,
+.page-id-151 .content h1.title,
+.page-id-167 .content h1.title,
+.page-id-155 .content h1.title,
+.page-id-161 .content h1.title {
+  background-image: url(images/headers-sprite-2.png);
+  text-indent: -9999px;
+  overflow: hidden;
+  background-repreat: no-repeat;
+  text-align: left;
+  display: block;
+  width: 390px;
+  height: 12px;
+}
+.page-id-167 .content h1.title {
+  background-position: 0 0;
+}
+.page-id-149 .content h1.title {
+  background-position: 0 -17px;
+}
+.page-id-151 .content h1.title {
+  background-position: 0 -34px;
+}
+.page-id-161 .content h1.title {
+  background-position: 0 -51px;
+}
+.page-id-155 .content h1.title {
+  background-position: 0 -68px;
+  margin-left: 35px;
+}
+/*.page-id-153 .content h1.title{background-position:0 -102px;}*/
+aside {
+  width: 32.941176%;
+  float: left;
+}
+aside h2 {
+  width: 179px;
+  height: 12px;
+  background-image: url(images/headers-sprite.png);
+  margin-bottom: 20px;
+  text-indent: -9999px;
+  overflow: hidden;
+  background-repreat: no-repeat;
+  text-align: left;
+  display: block;
+}
+aside h2.image,
+aside h2.images {
+  background-position: 0 0;
+}
+aside h2.halsman {
+  background-position: 0 -17px;
+}
+aside h2.career {
+  background-position: 0 -34px;
+}
+aside h2.contact-archive {
+  background-position: 0 -51px;
+}
+aside h2.publication,
+aside h2.publications {
+  background-position: 0 -68px;
+}
+aside h2.licensing {
+  background-position: 0 -85px;
+}
+aside h2.print-sales {
+  background-position: 0 -102px;
+}
+aside h2.news,
+aside h2.post {
+  background-position: 0 -119px;
+}
+aside ul {
+  list-style: none;
+}
+aside ul li {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 16px;
+}
+aside ul li a {
+  display: block;
+  padding: 5px 0 5px 23px;
+  width: 200px;
+  color: #58595b;
+}
+aside .contactBadge {
+  width: 200px;
+  margin-top: 40px;
+  background: #eeefef;
+  padding: 20px;
+  display: block;
+}
+aside .contactBadge h2.badgeHeader {
+  background-position: 0 -51px;
+}
+aside .contactBadge p {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 15px;
+}
+aside .contactBadge a {
+  color: #58595b;
+  text-decoration: underline;
+}
+aside .sidebar-quote {
+  width: 200px;
+  margin-top: 40px;
+}
+aside .sidebar-quote p {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 16px;
+  line-height: 28px;
+  color: #58595b;
+}
+aside ul li a:hover,
+aside ul li.current_page_item a {
+  background-color: #ffffff;
+  background-image: url(images/nav-high-black.png);
+  background-position: left 50%;
+  background-repeat: no-repeat;
+}
+.single-image aside ul li a:hover,
+.page-id-11 aside ul li a:hover,
+.single-image aside ul li.current_page_item a,
+.page-id-11 aside ul li.current_page_item a {
+  background-color: #ffce2d;
+  background-image: url(images/nav-highlight.png);
+  background-position: left 50%;
+  background-repeat: no-repeat;
+}
+.parent-pageid-15 aside h2 {
+  background-position: 0 -34px;
+}
+.parent-pageid-13 aside h2 {
+  background-position: 0 -17px;
+}
+li.page-item-155 ul.children {
+  display: none;
+}
+body.home {
+  background: #ffce2d;
+  border-top: none;
+}
+body.home header {
+  display: none;
+}
+body.home .content {
+  float: left;
+  margin: 115px 0 0 120px;
+}
+body.page-id-9 {
+  background: #ffce2d;
+  border-top: none;
+}
+body.page-id-9 header {
+  padding: 50px 0 40px 0;
+  background-position: 0 50px;
+}
+body.page-id-9 header nav ul li.menu-item-27 a:hover,
+body.page-id-9 header nav ul li.menu-item-27.current-menu-item a {
+  background-position: 0 -56px;
+}
+body.page-id-9 header nav ul li.menu-item-32 a:hover {
+  background-position: -67px -56px;
+}
+body.page-id-9 header nav ul li.menu-item-772 a:hover {
+  background-position: -139px -56px;
+}
+body.page-id-9 header nav ul li.menu-item-773 a:hover {
+  background-position: -223px -56px;
+}
+body.page-id-9 header nav ul li.menu-item-29 a:hover {
+  background-position: -297px -56px;
+}
+body.page-id-9 header nav ul li.menu-item-800 a:hover {
+  background-position: -439px -56px;
+}
+body.page-id-9 header nav ul li.menu-item-33 a:hover {
+  background-position: -557px -56px;
+}
+body.page-id-9 header nav ul li.menu-item-35 a:hover {
+  background-position: -648px -56px;
+}
+body.page-id-9 header nav ul li.menu-item-814 a:hover {
+  background-position: -748px -56px;
+}
+body.page-id-9 .content {
+  width: 100%;
+  text-align: center;
+}
+body.page-id-9 .content img {
+  display: block;
+  margin: 0 auto;
+}
+.page-id-11 aside ul li.current_page_item a {
+  background-image: none;
+  background-color: #fff;
+}
+.page-id-11 aside ul li.current_page_item a:hover {
+  background-color: #ffce2d;
+  background-image: url(images/nav-highlight.png);
+}
+.page-id-17 .content {
+  float: left;
+  width: 50.647059%;
+  overflow: visible;
+}
+.page-id-17 .content img {
+  display: block;
+  margin: 0;
+}
+.page-id-17 .content p.copy {
+  position: relative;
+  left: 260px;
+}
+.page-id-17 aside {
+  float: left;
+  padding-left: 45px;
+}
+.page-id-17 aside p {
+  font-family: "Times New Roman", Times, serif;
+  margin-bottom: 10px;
+}
+.page-id-17 aside p a {
+  color: #58595b;
+  text-decoration: underline;
+}
+.col-a {
+  float: left;
+  width: 360px;
+}
+.col-b {
+  float: right;
+  width: 170px;
+}
+.page-id-23 .content h1 {
+  display: none;
+}
+.page-id-23 .content div.wp-caption {
+  float: left;
+  margin-right: 8%;
+  width: 28% !important;
+}
+.page-id-23 .content div.wp-caption > a {
+  display: block;
+}
+.page-id-23 .content div.wp-caption img {
+  width: 100%;
+  height: auto;
+}
+.page-id-23 .content div.wp-caption:nth-of-type(3n) {
+  margin-right: 0;
+}
+.page-id-23 .content p {
+  clear: both;
+}
+.page-id-155 .content .gallery .gallery-caption {
+  font-size: 12px;
+  padding: 0 20px;
+}
+.content h1.post {
+  font-size: 26px;
+  color: #58595b;
+  font-weight: normal;
+  margin-bottom: 10px;
+}
+.content p.date {
+  font-family: "Times New Roman", Times, serif;
+}
+
+.content a.social-media-button {
+	display:inline;
+}

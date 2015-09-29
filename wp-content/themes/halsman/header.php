@@ -60,8 +60,6 @@
 	 */
 	wp_head();
 ?>
-<link rel="stylesheet/less" href="<?php bloginfo( 'template_url' ); ?>/style.less" />
-<script src="<?php bloginfo( 'template_url' ); ?>/js/less-1.3.0.min.js"></script>
 <script src="<?php bloginfo( 'template_url' ); ?>/js/modernizr.js"></script>
 <link rel="stylesheet" type="text/css" href="<?php bloginfo( 'template_url' ); ?>/js/fancybox/jquery.fancybox-1.3.4.css" media="screen" />
 
