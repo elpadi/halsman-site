@@ -225,11 +225,6 @@ header nav ul li.menu-item-814.current-menu-parent a {
 footer {
   width: 100%;
 }
-.home .content p.copy {
-  float: none;
-  margin-left: 186px;
-  color: #000;
-}
 .page-id-9 .content p.copy {
   color: #000;
 }
@@ -439,17 +434,6 @@ aside ul li.current_page_item a {
 }
 li.page-item-155 ul.children {
   display: none;
-}
-body.home {
-  background: #ffce2d;
-  border-top: none;
-}
-body.home header {
-  display: none;
-}
-body.home .content {
-  float: left;
-  margin: 115px 0 0 120px;
 }
 body.page-id-9 {
   background: #ffce2d;

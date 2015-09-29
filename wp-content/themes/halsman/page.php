@@ -32,15 +32,6 @@ global $post;
     
     </div>
     
-<?php } else if(is_front_page()) { ?>
-
-	<div class="content grp">
-    
-    	<a href="/home/"><img src="<?php bloginfo( 'template_url' ); ?>/images/splash.png" alt="Halsman" /></a>
-        <p class="copy">&copy; Copyright 2015 Halsman Archive. All rights reserved.</p>
-    
-    </div>
-
 <?php } else { ?>
 
 	<?php //If this is the images page ?>
