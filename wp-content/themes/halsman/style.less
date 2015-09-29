@@ -1,0 +1,231 @@
+@charset "UTF-8";
+// CSS Document
+// Site: Halsman
+// Author: Jackson Solutions Group
+// Website: http://go-jsg.com
+
+
+//---------- Global ----------
+
+//--- Reset --- 
+body,h1,h2,h3,h4,h5,h6,form,fieldset,legend,p,ul,ol,li,fieldset,blockquote,caption,table,tr,dl,dt,dd,img,header,nav,footer {margin: 0; padding: 0;}
+html,body{width:100%;}
+html {-webkit-text-size-adjust: none;} // Prevent font scaling for Mobile
+article, aside, footer, header, hgroup, nav, section {display: block;}
+a{text-decoration:none;}
+img{border:0;}
+
+//--- Clear Fix ---
+.grp:after{content: "."; display: block; height: 0; clear: both; visibility: hidden;}
+
+//--- Images ---
+.ir{text-indent:-9999px; overflow:hidden; background-repreat:no-repeat; text-align:left; display:block;}
+
+//--- Colors ---
+@base: #231f20;
+@white: #fff;
+@grey-1: #848689;
+@grey-2: #58595b;
+@yellow: #ffce2d;
+
+//--- Fonts ---
+@times: "Times New Roman", Times, serif;
+@helvetica: Helvetica, Arial, sans-serif;
+
+//--- Mixins ---
+
+//---------- Wrapper ----------
+
+body{border-top:14px solid #000; font-family:@helvetica; background:@white;}
+#wrapper{width:850px; margin:0 auto 40px;}
+
+//---------- Header ----------
+
+header{width:100%; background-image:url(images/logo.png); background-position: 0 36px; background-repeat: no-repeat; padding:36px 0 40px 0; height:150px;
+	.logo{width:294px; height:104px;}
+	
+	nav{padding:0 0 0 55px;
+		ul{list-style:none;
+			li{float:left;
+				a{background-image:url(images/nav-sprite.png); margin:0 10px 0 10px; height:51px; .ir;}
+				ul.sub-menu{display:none;}
+			}
+			li.menu-item-27 a{width:50px; background-position:0 top; margin:0 5px 0 0;
+				&:hover{background-position:0 bottom;}
+			}
+			li.menu-item-32 a{width:50px; background-position:-67px top;
+				&:hover{background-position:-67px bottom;}
+			}
+			li.menu-item-772 a{width:63px; background-position:-139px top;
+				&:hover{background-position:-139px bottom;}
+			}
+			li.menu-item-773 a{width:53px; background-position:-223px top;
+				&:hover{background-position:-223px bottom;}
+			}
+			li.menu-item-29 a{width:121px; background-position:-297px top;
+				&:hover{background-position:-297px bottom;}
+			}
+			li.menu-item-800 a{width:94px; background-position:-439px top;
+				&:hover{background-position:-439px bottom;}
+			}
+			li.menu-item-33 a{width:68px; background-position:-557px top;
+				&:hover{background-position:-557px bottom;}
+			}
+			li.menu-item-35 a{width:85px; background-position:-648px top; margin:0 7px 0 9px;
+				&:hover{background-position:-648px bottom;}
+			}
+			li.menu-item-814 a{width:50px; background-position:-748px top; margin:0 0 0 6px;
+				&:hover{background-position:-748px bottom;}
+			}
+			
+			li.menu-item-27.current-menu-item a, li.menu-item-27.current-menu-parent a{background-position:0 bottom;}
+			li.menu-item-32.current-menu-item a, li.menu-item-32.current-menu-parent a{background-position:-67px bottom;}
+			li.menu-item-772.current-menu-item a, li.menu-item-772.current-menu-parent a{background-position:-139px bottom;}
+			li.menu-item-773.current-menu-item a, li.menu-item-773.current-menu-parent a{background-position:-223px bottom;}
+			li.menu-item-29.current-menu-item a, li.menu-item-29.current-menu-parent a{background-position:-297px bottom;}
+			li.menu-item-800.current-menu-item a, li.menu-item-800.current-menu-parent a{background-position:-439px bottom;}
+			li.menu-item-33.current-menu-item a, li.menu-item-33.current-menu-parent a{background-position:-557px bottom;}
+			li.menu-item-35.current-menu-item a, li.menu-item-35.current-menu-parent a{background-position:-648px bottom;}
+			li.menu-item-814.current-menu-item a, li.menu-item-814.current-menu-parent a{background-position:-748px bottom;}
+		}
+	}
+}
+
+
+//---------- Footer ----------
+footer{width:100%}
+
+//---------- Layout ----------
+
+//--- Content ---
+.home .content p.copy{float:none; margin-left:186px; color:#000;}
+.page-id-9 .content p.copy{color:#000;}
+.content{width:65.647059%; float:right; font-size:14px; line-height:20px;
+	h1{font-weight:bold; font-size:14px; margin-bottom:30px; margin-top:30px; display:block;}
+	h2{font-weight:bold; font-size:14px; margin-bottom:15px; padding-top:30px; display:block;}
+	p{margin-bottom:15px; display:block;
+		&.copy{margin:0 0 0 0; padding-top:40px; color:#636466; font-size:11px; font-family:Arial, Helvetica, sans-serif; float:right; width:100%;}
+	}
+	a{color:@grey-2; text-decoration:underline; display:block;
+		&.top{color:#a7a9ac; background:url(images/arrow-up.jpg) 80px 30px no-repeat; text-decoration:none; padding:30px 20px 0 0;}
+	}
+	.gallery {margin: auto;
+		.gallery-item {float: left; margin-bottom:30px; text-align: center; width: 33%;}
+		.gallery-caption{color:@grey-1; margin-left: 0;}
+		img{border: none;}
+	}
+	.added-info{margin-left:35px;}
+	.added-info p, .added-info a{display:inline-block;}
+}
+
+.page-id-167 .content h1.title, .page-id-149 .content h1.title, .page-id-151 .content h1.title, /*.page-id-153 .content h1.title, */.page-id-167 .content h1.title, .page-id-155 .content h1.title, .page-id-161 .content h1.title{ background-image:url(images/headers-sprite-2.png); .ir; width:390px; height:12px;}
+
+.page-id-167 .content h1.title{background-position:0 0;}
+.page-id-149 .content h1.title{background-position:0 -17px;}
+.page-id-151 .content h1.title{background-position:0 -34px;}
+.page-id-161 .content h1.title{background-position:0 -51px;}
+.page-id-155 .content h1.title{background-position:0 -68px; margin-left:35px;}
+/*.page-id-153 .content h1.title{background-position:0 -102px;}*/
+
+//--- Sidebar ---
+aside{width:32.941176%; float:left;
+	h2{width:179px; height:12px; background-image:url(images/headers-sprite.png); margin-bottom:20px; .ir;
+		&.image, &.images{background-position:0 0;}
+		&.halsman{background-position:0 -17px;}
+		&.career{background-position:0 -34px;}
+		&.contact-archive{background-position:0 -51px;}
+		&.publication, &.publications{background-position:0 -68px;}
+		&.licensing{background-position:0 -85px;}
+		&.print-sales{background-position:0 -102px;}
+		&.news, &.post{background-position:0 -119px;}
+	}
+	ul{list-style:none;
+		li{font-family:@times; font-size:16px;
+			a{display:block; padding:5px 0 5px 23px; width:200px; color:@grey-2;}
+		}
+	}
+	.contactBadge{width:200px; margin-top:40px; background:#eeefef; padding:20px; display:block;
+		h2.badgeHeader{background-position:0 -51px;}
+		p{font-family:@times; font-size:15px;}
+		a{color:@grey-2; text-decoration:underline;}
+	}
+	.sidebar-quote{width:200px; margin-top:40px;
+		p{font-family:@times; font-size:16px; line-height:28px; color:@grey-2;}
+	}
+}
+aside ul li a:hover, aside ul li.current_page_item a{background-color:@white; background-image:url(images/nav-high-black.png); background-position:left 50%; background-repeat:no-repeat;}
+.single-image, .page-id-11{
+	aside ul li a:hover, aside ul li.current_page_item a{background-color:@yellow; background-image:url(images/nav-highlight.png); background-position:left 50%; background-repeat:no-repeat;}
+}
+.parent-pageid-15 aside h2{background-position:0 -34px;}
+.parent-pageid-13 aside h2{background-position:0 -17px;}
+li.page-item-155 ul.children{display:none;}
+
+//--Splash
+
+body.home{background:@yellow; border-top:none;
+	header{display:none;}
+	.content{float:left; margin:115px 0 0 120px;}
+}
+
+//--- Home ---
+body.page-id-9{background:@yellow; border-top:none;
+	header{padding:50px 0 40px 0; background-position: 0 50px;
+		nav ul{
+			li.menu-item-27 a:hover, li.menu-item-27.current-menu-item a{background-position:0 -56px;}
+			li.menu-item-32 a:hover{background-position:-67px -56px;}
+			li.menu-item-772 a:hover{background-position:-139px -56px;}
+			li.menu-item-773 a:hover{background-position:-223px -56px;}
+			li.menu-item-29 a:hover{background-position:-297px -56px;}
+			li.menu-item-800 a:hover{background-position:-439px -56px;}
+			li.menu-item-33 a:hover{background-position:-557px -56px;}
+			li.menu-item-35 a:hover{background-position:-648px -56px;}
+			li.menu-item-814 a:hover{background-position:-748px -56px;}
+		}
+	}
+	.content{width:100%; text-align:center;
+		img{display:block; margin:0 auto;}
+	}
+}
+
+//---Images---
+
+.page-id-11 aside ul li.current_page_item a{background-image:none; background-color:#fff;
+	&:hover{background-color:@yellow; background-image:url(images/nav-highlight.png);}
+}
+
+//--- Contact ---
+.page-id-17{
+	.content{float:left; width:50.647059%; overflow:visible;
+		img{display:block; margin:0;}
+		p.copy{position:relative; left:260px;}
+	}
+	aside{float:left; padding-left:45px;
+		p{font-family:@times; margin-bottom:10px;
+			a{color:@grey-2; text-decoration:underline;}
+		}
+	}
+}
+
+//--- Licensing ---
+.col-a{float:left; width:360px;}
+.col-b{float:right; width:170px;}
+
+//--- Print Sales ---
+.page-id-23{
+	.content h1{display:none;}
+	.content div.wp-caption{float:left; margin-right:8%; width:28% !important;
+		> a{display:block;}
+		img{width:100%; height:auto;}
+	}
+	.content div.wp-caption:nth-of-type(3n){margin-right:0;}
+	.content p{clear:both;}
+}
+
+//--- Further Reading
+
+.page-id-155 .content .gallery .gallery-caption{font-size:12px; padding:0 20px;}
+
+//--- News ---
+.content h1.post{font-size:26px; color:@grey-2; font-weight:normal; margin-bottom:10px;}
+.content p.date{font-family:@times}

@@ -1,0 +1,14 @@
+/*
+Theme Name: Halsman
+Theme URI: http://wordpress.org/extend/themes/twentyeleven
+Author: Jackson Solutions Group
+Author URI: http://go-jsg.com
+Description: The WordPress Theme for the Halsman Website. Designed by Sheila Buchanan. Developed by JSG.
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Tags: light, photography, halsman
+Text Domain: twentyeleven
+*/
+
+.category-news .content a{display:inline;}
