@@ -71,9 +71,8 @@ img {
   border: 0;
 }
 .grp:after {
-  content: ".";
+  content: "";
   display: block;
-  height: 0;
   clear: both;
   visibility: hidden;
 }
@@ -126,9 +125,13 @@ header nav ul li a {
 	background:transparent none center center no-repeat;
 	background-size:auto 100%;
 }
+header nav ul li.current-menu-item a,
+header nav ul li.current-menu-ancestor a,
 header nav ul li a:hover {
 	background-image:url(images/yellow-circle.svg);
 }
+body.page-id-9 header nav ul li.current-menu-item a,
+body.page-id-9 header nav ul li.current-menu-ancestor a,
 body.page-id-9 header nav ul li a:hover {
 	background-image:url(images/white-circle.svg);
 }
@@ -359,10 +362,14 @@ body.page-id-9 header {
 body.page-id-9 .content {
   width: 100%;
   text-align: center;
+  margin-bottom:10px;
 }
 body.page-id-9 .content img {
   display: block;
   margin: 0 auto;
+}
+body.page-id-9 .footer-icons {
+	text-align:center;
 }
 .page-id-11 aside ul li.current_page_item a {
   background-image: none;
@@ -442,4 +449,5 @@ body.page-id-9 .content img {
 
 .content a.social-media-button {
 	display:inline;
+	text-decoration:none;
 }
