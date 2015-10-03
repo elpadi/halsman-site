@@ -49,8 +49,10 @@ function gallery(){
 }
 
 function home(){
-	$('#gallery-1').cycle('fade');
-	$('#gallery-1').css('width','100%');
+	if ($(window).width() >= 768) {
+		$('#gallery-1').cycle('fade');
+		$('#gallery-1').css('width','100%');
+	}
 	$(".content .gallery .gallery-item .gallery-icon a").each(function(){
 		$(this).attr('href','#');
 	});
