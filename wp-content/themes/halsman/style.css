@@ -451,3 +451,28 @@ body.page-id-9 .footer-icons {
 	display:inline;
 	text-decoration:none;
 }
+
+.slideshow {
+	position:relative;
+}
+.slideshow > img {
+	position:absolute;
+	top:0;
+	left:0;
+	width:100%;
+	height:auto;
+	background:transparent none center center no-repeat;
+	background-size:cover;
+	transition:opacity 3s;
+	opacity:0;
+	object-fit:cover;
+}
+.slideshow > img:first-child {
+	position:static;
+}
+.slideshow:not(.init) > img:first-child,
+.slideshow > img.selected {
+	opacity:1;
+	z-index:2;
+}
+

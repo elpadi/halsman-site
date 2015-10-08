@@ -21,7 +21,7 @@ global $post;
 
 	<div class="content grp">
     
-    	<?php echo do_shortcode('[gallery orderby="menu_order" columns="0" size="full" exclude="' . get_post_thumbnail_id( $post->ID ) . '"]'); ?>
+		<div class="home-slideshow slideshow"><?php echo implode('', array_map(function($p) { return wp_get_attachment_image($p->ID, 'full'); }, get_attached_media('image'))); ?></div>
         <p class="copy">&copy; Copyright 2015 Halsman Archive. All rights reserved.</p>
 
     </div>

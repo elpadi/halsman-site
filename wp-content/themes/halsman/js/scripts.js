@@ -49,13 +49,13 @@ function gallery(){
 }
 
 function home(){
-	$('#gallery-1').cycle('fade');
-	$('#gallery-1').css('width','100%');
-	$(".content .gallery .gallery-item .gallery-icon a").each(function(){
-		$(this).attr('href','#');
-	});
-	$(".content .gallery a").click(function(event){
-		event.preventDefault();
+	$(window).load(function() {
+		var slideshow = new Slideshow($('.slideshow').get(0));
+		slideshow.selectByIndex(0);
+		$(slideshow.container).addClass('init');
+		setInterval(function() {
+			slideshow.next();
+		}, 4000);
 	});
 }
 
