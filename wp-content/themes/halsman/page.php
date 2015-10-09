@@ -84,8 +84,6 @@ global $post;
             <?php endwhile;
             // End the loop and reset the Query ?>
             </div>
-            <p class="copy">&copy; Copyright 2015 Halsman Archive. All rights reserved. <a href="http://www.sheilabuchanan.com/" target="_blank">Site Development</a></p></p>
-			<p class="copy"><?php include(__DIR__.'/snippets/social-media-buttons.php'); ?></p>
         </div>
         <!-- End Content -->
         
@@ -95,6 +93,8 @@ global $post;
         </aside>
         <!-- End Sidebar -->
     
+		<p class="copy">&copy; Copyright 2015 Halsman Archive. All rights reserved. <a href="http://www.sheilabuchanan.com/" target="_blank">Site Development</a></p></p>
+		<p class="copy"><?php include(__DIR__.'/snippets/social-media-buttons.php'); ?></p>
     <?php } else { ?>
     
         <!-- Content -->
@@ -104,8 +104,6 @@ global $post;
                 <?php get_template_part( 'content', 'page' ); ?>
             
             <?php endwhile; // end of the loop. ?>
-            <p class="copy">&copy; Copyright 2015 Halsman Archive. All rights reserved. <a href="http://www.sheilabuchanan.com/" target="_blank">Site Development</a></p>
-			<p class="copy"><?php include(__DIR__.'/snippets/social-media-buttons.php'); ?></p>
         </div>
         
         <!-- End Content -->
@@ -116,6 +114,8 @@ global $post;
         </aside>
         <!-- End Sidebar -->
     
+		<p class="copy">&copy; Copyright 2015 Halsman Archive. All rights reserved. <a href="http://www.sheilabuchanan.com/" target="_blank">Site Development</a></p>
+		<p class="copy"><?php include(__DIR__.'/snippets/social-media-buttons.php'); ?></p>
     <?php } ?>
     
 <?php } ?>
