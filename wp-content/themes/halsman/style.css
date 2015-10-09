@@ -89,7 +89,7 @@ body {
   background: #ffffff;
 }
 #wrapper {
-  width: 850px;
+  max-width: 850px;
   margin: 0 auto 40px;
 }
 header {
@@ -97,8 +97,7 @@ header {
   background-image: url(images/logo.png);
   background-position: 0 36px;
   background-repeat: no-repeat;
-  padding: 36px 0 40px 0;
-  height: 150px;
+  padding: 36px 0 34px 0;
 }
 header .logo {
   width: 294px;
@@ -109,6 +108,7 @@ header nav {
 }
 header nav ul {
   list-style: none;
+  float: left;
 }
 header nav ul li {
   float: left;
@@ -168,7 +168,7 @@ footer {
   margin-bottom: 15px;
   display: block;
 }
-.content p.copy {
+p.copy {
   margin: 0 0 0 0;
   padding-top: 40px;
   color: #636466;
@@ -181,12 +181,24 @@ footer {
   color: #58595b;
   text-decoration: underline;
   display: block;
+  /* These are technically the same, but use both */
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+  -ms-word-break: break-all;
+  /* This is the dangerous one in WebKit, as it breaks things wherever */
+  word-break: break-all;
+  /* Instead use this non-standard one: */
+  word-break: break-word;
 }
 .content a.top {
   color: #a7a9ac;
   background: url(images/arrow-up.jpg) 80px 30px no-repeat;
   text-decoration: none;
   padding: 30px 20px 0 0;
+}
+.content img {
+	max-width:100%;
+	height:auto;
 }
 .content .gallery {
   margin: auto;
@@ -446,12 +458,6 @@ body.page-id-9 .footer-icons {
 .content p.date {
   font-family: "Times New Roman", Times, serif;
 }
-
-.content a.social-media-button {
-	display:inline;
-	text-decoration:none;
-}
-
 .slideshow {
 	position:relative;
 }
@@ -476,3 +482,24 @@ body.page-id-9 .footer-icons {
 	z-index:2;
 }
 
+
+.content a.social-media-button {
+	display:inline;
+	text-decoration:none;
+}
+@media (max-width:540px) {
+	.content, aside {
+		width:auto;
+		float:none;
+	}
+}
+@media (min-width:768px) {
+	.content .gallery img {
+	  max-width:none;
+	}
+}
+@media (max-width:870px) {
+	#wrapper {
+		padding:0 10px;
+	}
+}
